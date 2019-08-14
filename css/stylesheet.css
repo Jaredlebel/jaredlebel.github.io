@@ -84,7 +84,7 @@ h3 {
     font-size: 1rem;
     line-height: 1.2;
     font-style: normal;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -108,11 +108,11 @@ p {
     }
     
     h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
@@ -203,7 +203,7 @@ header {
 
 @media only screen and (min-width: 50rem) {
     .intro-ban h1 {
-        max-width: 50rem;
+        max-width: 65rem;
     }
     
     .intro-ban {
