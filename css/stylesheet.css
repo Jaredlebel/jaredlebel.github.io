@@ -42,23 +42,129 @@ body {
     list-style-type: none;
 }
 
+a {
+    font-family: benton-sans-wide, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    padding: 12% 0;
+}
+
+img {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 1;
+    color: #ededed;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #2e2e2e;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-bottom: 4rem;
+}
+
+h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: benton-sans-wide, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.65;
+    font-style: normal;
+    color: #2e2e2e;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 50rem) {
+    h1 {
+        font-size: 10rem;
+    }
+    
+    h2 {
+        font-size; 4rem;
+    }
+    
+    h3 {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.white {
+    color: #fff;
+}
+
+.mono {
+    font-family: base-mono-wide, monospace;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.study {
+    font-family: base-mono-wide, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9rem;
+}
+
+/* Navigation starts */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .nav {
     position: relative;
     width: 100%;
     background-color: #ededed;
     overflow: hidden;
-    padding: 2rem 0 2rem;
-    border-bottom: 2px solid #2e2e2e;
+    padding: 2rem 0 0;
     z-index: 10000;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 1rem 0.3rem;
 }
 
 .nav a {
     font-family: base-mono-wide, monospace;
     color: #2e2e2e;
     text-align: right;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border: 3px solid #ededed;
 }
 
@@ -71,41 +177,53 @@ body {
 }
 
 .nav img {
-    float: left;
-    width: 200px;
+    width: 150px;
 }
 
-.nav li {
-    float: right;
+@media only screen and (min-width: 50rem) {
+    .nav img {
+        width: 230px;
+    }
 }
 
-a {
-    font-family: benton-sans-wide, sans-serif;
-    text-align: center;
-    color: #fff;
-}
-
-section {
-    padding: 12% 0;
-}
+ /* Hero banner */
 
 .intro-ban {
-    background-position: left;
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 8.5% 25% 8%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
     text-align: center;
+}
+
+.intro-ban h1 {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 50rem) {
+    .intro-ban h1 {
+        max-width: 50rem;
+    }
+    
+    .intro-ban {
+        min-height: 40vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .about {
-    padding: 10% 10% 15%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
+    padding: 3rem 0;
 }
 
 .about p {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 .about img {
@@ -139,76 +257,6 @@ section {
     -webkit-text-stroke: 2px #2e2e2e;
     line-height: 1;
     padding-bottom: 2rem;
-}
-
-img {
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
-}
-
-h1 {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    text-transform: uppercase;
-    font-size: 6rem;
-    font-weight: 700;
-    font-style: normal;
-    /*color: black;*/
-    color: #ededed;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #2e2e2e;
-    line-height: 1;
-}
-
-h2 {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    line-height: 1.3;
-    padding-bottom: 4rem;
-}
-
-h3 {
-    font-family: itc-avant-garde-gothic-pro, sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    font-style: normal;
-    text-transform: uppercase;
-    line-height: 1.2;
-    padding-bottom: 2rem;
-}
-
-p {
-    font-family: benton-sans-wide, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    line-height: 1.65;
-    color: #2e2e2e;
-    padding-bottom: 2rem;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.white {
-    color: #fff;
-}
-
-.mono {
-    font-family: base-mono-wide, monospace;
-    font-weight: 100;
-    font-size: 0.9rem;
-}
-
-.study {
-    font-family: base-mono-wide, monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.9rem;
 }
 
 #study-1 {
@@ -367,24 +415,5 @@ p {
     and (-webkit-device-pixel-ratio: 3)
     and (orientation: landscape) {
         
-    h1 {
-        font-size: 6rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-        
-        a {
-            display: none;
-        }
 }
 
