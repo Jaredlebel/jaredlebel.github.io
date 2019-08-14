@@ -70,6 +70,7 @@ h1, .title {
     color: #ededed;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1.5px #2e2e2e;
+    margin-bottom: 0 !important;
 }
 
 h2 {
@@ -252,7 +253,6 @@ header {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    flex-direction: column;
     text-align: center;
 }
 
@@ -273,10 +273,6 @@ header {
 
 #study-1 {
     background-color: #101820;
-    /*background-image: url(../images/hero-bg.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;   
 }
 
@@ -286,10 +282,6 @@ header {
 
 #study-2 {
     background-color: #201547;
-    /*background-image: url(../images/hero-bg.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #674052;   
 }
 
@@ -299,10 +291,6 @@ header {
 
 #study-3 {
     background-color: #e3d876;
-    /*background-image: url(../images/hero-bg-light.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;   
 }
 
@@ -312,10 +300,6 @@ header {
 
 #study-4 {
     background-color: #001E62;
-    /*background-image: url(../images/hero-bg.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;   
 }
 
@@ -325,10 +309,6 @@ header {
 
 #study-5 {
     background-color: #006341;
-    /*background-image: url(../images/hero-bg-ac.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;   
 }
 
@@ -342,10 +322,6 @@ header {
 
 #study-6 {
     background-color: #ee3340;
-    /*background-image: url(../images/hero-bg-ac.png);*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;   
 }
 
@@ -358,8 +334,10 @@ header {
 }
 
 .logos {
-    background-color: #fff;
+    background-color: #ededed;
 }
+
+/* Footer starts here */
 
 .footer {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
@@ -417,15 +395,3 @@ header {
         width: 60%
     }
 }
-
-@media only screen and (min-device-width: 414px) 
-    and (min-device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) 
-    and (orientation: portrait)
-    and (min-device-width: 375px) 
-    and (min-device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 3)
-    and (orientation: landscape) {
-        
-}
-
