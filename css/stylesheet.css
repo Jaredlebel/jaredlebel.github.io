@@ -257,7 +257,7 @@ header {
 }
 
 .bot .title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 1;
 }
 
@@ -333,6 +333,28 @@ header {
     color: #3344ff;   
 }
 
+.flex-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+@media only screen and (min-width:60rem) {
+
+    .flex-row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .col-left {
+        width: 30%;
+    }
+    
+    .col-right {
+        width: 60%
+    }
+}
+
 .logos {
     background-color: #ededed;
 }
@@ -372,26 +394,4 @@ header {
 .footer a:hover, .footer a:active, .footer a:visited {
     color: #ededed;
     opacity: 0.5;
-}
-
-.flex-row {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-@media only screen and (min-width:60rem) {
-
-    .flex-row {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .col-left {
-        width: 30%;
-    }
-    
-    .col-right {
-        width: 60%
-    }
 }
