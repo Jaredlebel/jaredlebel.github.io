@@ -10,6 +10,7 @@
 
 .slides {
   display: flex;
+    position: relative;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -46,7 +47,7 @@
     width: 100%;
 }
 
-.slider > a {
+.slider a {
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
@@ -76,4 +77,27 @@
   .slider > a {
     display: none;
   }
+}
+
+.breadcrumb {
+    display: none;
+}
+
+.swipe {
+    position: absolute;
+    z-index: 1000;
+    background: #2e2e2e;
+    color: #fff !important;
+    padding: 0.3rem;
+    font-size: 0.7rem;
+}
+
+@media only screen and (min-width: 60rem) {
+    .breadcrumb {
+        display: block;
+    }
+    
+    .swipe {
+        display: none;
+    }
 }
