@@ -90,7 +90,7 @@ section {
 }
 
 .intro-ban {
-    /*background-image: url(/images/hero-bg.jpg);*/
+    /*background-image: url(../images/hero-bg.jpg);*/
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ section {
 }
 
 .bot-about {
-    background-image: url(/images/jared.png);
+    background-image: url(../images/jared.png);
     background-position: right;
     padding: 12% 15% 12%;
     text-align: center;
@@ -213,7 +213,7 @@ p {
 
 #study-1 {
     background-color: #101820;
-    /*background-image: url(/images/hero-bg.png);*/
+    /*background-image: url(../images/hero-bg.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,7 +226,7 @@ p {
 
 #study-2 {
     background-color: #201547;
-    /*background-image: url(/images/hero-bg.png);*/
+    /*background-image: url(../images/hero-bg.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,7 +239,7 @@ p {
 
 #study-3 {
     background-color: #e3d876;
-    /*background-image: url(/images/hero-bg-light.png);*/
+    /*background-image: url(../images/hero-bg-light.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,7 +252,7 @@ p {
 
 #study-4 {
     background-color: #001E62;
-    /*background-image: url(/images/hero-bg.png);*/
+    /*background-image: url(../images/hero-bg.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,7 +265,7 @@ p {
 
 #study-5 {
     background-color: #006341;
-    /*background-image: url(/images/hero-bg-ac.png);*/
+    /*background-image: url(../images/hero-bg-ac.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,7 +282,7 @@ p {
 
 #study-6 {
     background-color: #ee3340;
-    /*background-image: url(/images/hero-bg-ac.png);*/
+    /*background-image: url(../images/hero-bg-ac.png);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
