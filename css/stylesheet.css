@@ -342,7 +342,10 @@ p {
         justify-content: space-between;
     }
 
-@media only screen and (min-width:60rem) {
+@media only screen and (min-width:60rem)
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
     .flex-row {
         flex-direction: row;
         justify-content: space-between;
