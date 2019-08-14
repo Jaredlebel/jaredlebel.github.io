@@ -261,10 +261,17 @@ header {
     line-height: 1;
 }
 
+@media only screen and (min-width: 30rem) {
+    .bot .title {
+        font-size: 4rem;
+        line-height: 1;
+        max-width: 70rem;
+    }
+}
+
 @media only screen and (min-width: 50rem) {
     .bot .title {
         font-size: 8rem;
-        line-height: 1;
         max-width: 70rem;
     }
 }
