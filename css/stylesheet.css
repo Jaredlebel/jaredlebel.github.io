@@ -65,8 +65,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 6rem;
-    line-height: 1;
+    font-size: 5rem;
+    line-height: 0.9;
     color: #ededed;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px #2e2e2e;
@@ -206,12 +206,11 @@ header {
     }
     
     .intro-ban {
-        min-height: 40vh;
-        display: flex;
-        align-items: center;
-        text-align: center;
+        padding: 1rem;
     }
 }
+
+/* about section */
 
 .about {
     min-height: 80vh;
@@ -219,7 +218,6 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 3rem 0;
 }
 
 .about p {
@@ -230,9 +228,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    width: 18rem;
-    padding: 0 0 2rem 0;
+    width: 12rem;
+    padding-bottom: 2rem;
 }
 
 .bot-about {
