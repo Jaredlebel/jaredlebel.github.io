@@ -82,7 +82,7 @@ body {
 a {
     font-family: benton-sans-wide, sans-serif;
     text-align: center;
-    color: #2e2e2e;
+    color: #fff;
 }
 
 section {
@@ -90,12 +90,12 @@ section {
 }
 
 .intro-ban {
-    /*background-image: url(../images/hero-bg.jpg);*/
+    background-position: left;
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 8% 25% 8%;
+    padding: 8.5% 25% 8%;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@ section {
     font-style: normal;
     color: black;
     -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px #2e2e2e;
     line-height: 1;
     padding-bottom: 2rem;
 }
@@ -155,8 +155,8 @@ h1 {
     font-style: normal;
     /*color: black;*/
     color: #ededed;
-    -webkit-text-fill-color: #ededed;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #2e2e2e;
     line-height: 1;
 }
 
