@@ -336,7 +336,7 @@ p {
     opacity: 0.5;
 }
 
-@media only screen and (min-width:50rem) {
+@media only screen and (min-width:30rem) {
     .flex-row {
         display: flex;
         flex-direction: row;
