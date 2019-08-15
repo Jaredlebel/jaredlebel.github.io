@@ -8,6 +8,12 @@
   overflow: hidden;
 }
 
+@media only screen and (min-width: 60rem) {
+    .slider {
+        padding-bottom: 1rem;
+    }
+}
+
 .slides {
     display: flex;
     position: relative;
@@ -92,7 +98,7 @@
     font-size: 0.7rem;
 }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 65rem) {
     .breadcrumb {
         display: block;
     }
