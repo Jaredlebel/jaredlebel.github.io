@@ -75,8 +75,8 @@ h1, h2, h3, .title {
     text-transform: uppercase;
 }
 
-h1, .title {
-    font-size: 4rem;
+h1 {
+    font-size: 3rem;
     line-height: 0.9;
     color: #ededed;
     -webkit-text-fill-color: transparent;
