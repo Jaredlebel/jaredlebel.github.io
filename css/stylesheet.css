@@ -133,25 +133,6 @@ p {
     }
 }
 
-@media only screen and (min-width: 40rem) {
-    h1, .title {
-        font-size: 5.5rem;
-        -webkit-text-stroke: 2px #2e2e2e;
-    }
-    
-    h2 {
-        font-size: 3.5rem;
-    }
-    
-    h3 {
-        font-size: 1.5rem;
-    }
-    
-    p {
-        font-size: 1rem;
-    }
-}
-
 .bold {
     font-weight: 700;
 }
@@ -240,16 +221,11 @@ header {
 @media only screen and (min-width: 60rem) {
     .intro-ban h1 {
         max-width: 65rem;
+        padding-top: 2rem;
     }
     
     .intro-ban {
         padding: 1rem;
-    }
-}
-
-@media only screen and (min-width: 40rem) {
-    .intro-ban h1 {
-        max-width: 29rem;
     }
 }
 
@@ -262,7 +238,7 @@ header {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    padding: 6rem 0;
+    padding: 8rem 0;
     max-width: 50rem;
 }
 
