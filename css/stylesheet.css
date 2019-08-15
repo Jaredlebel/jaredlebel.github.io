@@ -85,13 +85,18 @@ h1, .title {
     line-height: 0.9;
     color: #ededed;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px #2e2e2e;
+    -webkit-text-stroke: .02em #2e2e2e;
     margin-bottom: 0 !important;
+}
+
+@media only screen and (min-width: 60rem) {
+    h1, .title {
+        -webkit-text-stroke: .01em #2e2e2e;
+    }
 }
 
 .title {font-size: 9vw; margin-left: 10vw; margin-right: 10vw;}
 .top-title {margin-left: 20vw; margin-right: 20vw}
-
 
 h2 {
     font-weight: 400;
