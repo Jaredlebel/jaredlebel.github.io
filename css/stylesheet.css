@@ -76,7 +76,7 @@ h1, h2, h3, .title {
 }
 
 h1, .title {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 0.9;
     color: #ededed;
     -webkit-text-fill-color: transparent;
