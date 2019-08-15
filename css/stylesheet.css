@@ -201,7 +201,7 @@ header {
  /* Hero banner */
 
 .intro-ban {
-    min-height: 40vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -231,7 +231,7 @@ header {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 6rem 0;
     max-width: 50rem;
 }
 
